@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body{
+    margin: 0 0 0 0;
+    width: 100%;
+    min-width: 720px;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    background-color: antiquewhite;
+}
+
+.right {
+    width: 70%;
+    background-color: aquamarine;
+    padding-left: 50px;
+}
