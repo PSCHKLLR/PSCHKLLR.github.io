@@ -10,5 +10,8 @@ body    {
 
 body h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 48px;
+}
+
+body p {
+    font-family: 'Roboto';
 }
