@@ -1,40 +1,113 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="keywords" content="cv, resume">
-        <meta name="viewport" content="witdh=deice width, initial-scale=1"/>
-        <title>My CV</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="layout.css">
-    </head>
-    <body>
-        <header>
-            
-        </header>
-        <div class="main">
-            <div class="left">
-                <h1> </h1>
-            </div>
-            <div class="right">
-                <h1>MUHAMMAD RIDWAN BIN TAMBRING</h1>
-                <div class="profile">
-                    <h2>PROFILE</h2>
-                    <p>I am currently a student of Tunku Abdul Rahman Univeristy of Management and Technology pursuing Diploma in Computer Science. I seeking a challenging opportunity where I will be able to utilize my organizational skills and ability to work well with people, which allow me to grow personally and professionally.</p>
-                </div>
-                <div class="envolve">
-                    <h2>NOTABLE ENVOLVEMENT</h2>
-                </div>
-                <div class="education">
-                    <h2>EDUCATION</h2>
-                </div>
-                <div class="exp">
-                    <h2>EXPERIENCE</h2>
-                </div>
-                <div class="skills">
-                    <h2>SKILLS</h2>
-                </div>
-            </div>
-        </div>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="toggle-container">
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider round"></span>
+        </label>
+        <span class="toggle-label">Dark Mode</span>
+      </div>
+  <header>
+    <div class="container">
+      <h1>Muhammad Ridwan Bin Tambring</h1>
+      <p>Student | Software Developer</p>
+      
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m a final-year student at Tunku Abdul Rahman University of Management and Technology,
+         pursuing a degree in Software System Development. I’ve built a solid foundation in web technologies, database systems, and IoT development.
+          My coursework and hands-on projects have strengthened my problem-solving skills and deepened my interest in software engineering.
+           I’m expected to graduate in July 2026, and I’m actively seeking opportunities to apply my skills in real-world development environments.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>SmartLab IoT System</h3>
+        <p>Built a real-time fire and gas detection system using ESP32 and Firebase.</p>
+      </div>
+      <div class="project">
+        <h3>Movie Recommender</h3>
+        <p>Implemented user-based collaborative filtering using the MovieLens dataset.</p>
+      </div>
+      <div class="project">
+        <h3>E-Learning System </h3>
+        <p>Designed and developed a comprehensive E-Learning platform using ASP.NET, featuring user authentication, course management, and a structured relational database for efficient data handling.</p>
+      </div>
+      <div class="project">
+        <h3>E-Learning System </h3>
+        <p>Designed and developed a comprehensive E-Learning platform using ASP.NET, featuring user authentication, course management, and a structured relational database for efficient data handling.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Firebase</li>
+        <li>SQL</li>
+        <li>ESP32 & IoT</li>
+        <li>Java</li>
+        <li>Kotlin</li>
+        <li>Mobile Application Development</li>
+        <li>Relational Database</li>
+        <li>HarmonyOS</li>
+        <li>Jetpack Compose</li>
+        <li>Data Structure & Algorithms</li>
+        <li>C Language</li>
+        <li>Web Development</li>
+        <li>ASP .NET</li>
+        <li>PHP</li>
+        <li>Apache Netbeans</li>
+        <li>Assembly</li>
+        <li>Cisco</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: eoneridwan5@gmail.com</p>
+      <!-- <p>LinkedIn: linkedin.com/in/johndoe</p> -->
+      <p>GitHub: github.com/PSCHKLLR</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Muhammad Ridwan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
