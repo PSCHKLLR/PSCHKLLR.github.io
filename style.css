@@ -188,3 +188,17 @@ body.dark-mode {
   #about p {
     text-align: justify;
   }
+
+  .project p {
+    text-align: justify;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h3 > a {
+    text-decoration: none;
+    position: absolute;
+    padding-top: 5px;
+  }
